@@ -1,0 +1,20 @@
+[project]
+name = "ai-agent-evaluation-system"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "raneem", email = "rabujabal4@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "dotenv>=0.9.9",
+    "langchain-google-genai>=4.5.2",
+]
+
+[project.scripts]
+ai-agent-evaluation-system = "ai_agent_evaluation_system:main"
+
+[build-system]
+requires = ["uv_build>=0.13.8,<0.14.0"]
+build-backend = "uv_build"
